@@ -1,3 +1,5 @@
+import "toastify-js/src/toastify.css";
+
 import "../styles/animations.scss";
 import "../styles/globals.scss";
 // import App from "next/app";
