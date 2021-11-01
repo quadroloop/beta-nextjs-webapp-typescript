@@ -2,7 +2,7 @@
 
 ![banner image](https://raw.githubusercontent.com/quadroloop/beta-nextjs-webapp-typescript/main/banner.png)
 
-> NextJS Boiler plate for buildwing Modern Web Applications
+> NextJS Boiler plate for building Modern Web Applications
 
 ### Installation & Set up
 
