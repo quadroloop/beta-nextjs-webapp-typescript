@@ -1,6 +1,6 @@
 # beta-nextjs-webapp-typescript
 
-![banner image](https://raw.githubusercontent.com/quadroloop/beta-nextjs-webapp-typescript/main/banner.png)
+![banner image](https://raw.githubusercontent.com/quadroloop/beta-nextjs-webapp-typescript/main/project-banner.png)
 
 > NextJS Boiler plate for building Modern Web Applications
 
