@@ -1,11 +1,11 @@
 {
   "name": "beta-nextjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "./kill_port.sh; next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next build && next start"
   },
   "browser": {
     "child_process": false
@@ -14,7 +14,9 @@
     "@next/bundle-analyzer": "12.0.2",
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.21.1",
+    "chalk": "4.1.2",
     "formidable": "^1.2.2",
+    "fs-extra": "10.0.0",
     "fuse.js": "^6.4.6",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",

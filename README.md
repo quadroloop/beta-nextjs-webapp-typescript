@@ -30,6 +30,13 @@ Test Latest build
 yarn start # or npm run start
 ```
 
+### CLI
+Beta has a command line interface to automate the creation of another boiler plate instances, you can provide a project folder name and the CLI will automatically copy the files from the existing intance to the new one. Example:
+
+```sh
+node beta-cli --create [PROJECT_NAME]
+```
+
 
 ## Main pre-installed packages
 
