@@ -7,14 +7,20 @@ const Index = () => {
     startPageLoad();
     setTimeout(() => {
       stopPageLoad();
-      Toast("Welcome to beta");
+      Toast("Welcome to Beta");
     }, 5000);
   }, []);
 
   return (
     <>
       <Layout>
-        <h1 className="fade-in-bottom">Beta NextJS</h1>
+        <div className="mast">
+         <div className="welcome">
+           <i className="lab la-buffer la-6x shimmer-text"/>
+           <h1 className="shimmer-text">Beta NextJS</h1>
+           <p>Starter Boilerplate for NextJS Web Applications</p>
+         </div>
+        </div>
       </Layout>
     </>
   );

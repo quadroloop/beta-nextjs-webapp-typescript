@@ -30,6 +30,45 @@ code {
   height: 2px;
 }
 
+.shimmer-text {
+  background: linear-gradient(to bottom, rgba(243, 247, 246, 0.911) 0%, #120b7227 100%),
+    url('https://cdn.dribbble.com/users/988516/screenshots/11136271/media/ff2298bc2e5f45344639cb0c83ac1b6c.gif');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+}
+
+
+
+.mast{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+
+  .welcome{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   i{
+     font-weight: 100 !important;
+   }
+
+    h1{
+  font-weight: 200 !important;
+  font-size: 40px;
+  margin-top: -5px;
+    }
+
+    p{
+      color: gray;
+      margin-top: -10px;
+    }
+  }
+}
+
 /* Fancy blur effect */
 #nprogress .peg {
   display: block;
